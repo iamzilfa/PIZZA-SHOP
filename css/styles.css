@@ -5,7 +5,21 @@ header {
     height:150vh;
 }
 
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.623) !important;
+}
+
 .about {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+font-weight:700;
+font-size: 14px;
+text-transform: uppercase;
 }
