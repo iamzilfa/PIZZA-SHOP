@@ -1,0 +1,11 @@
+header {
+    background-image: url(https://res.cloudinary.com/zilfa/image/upload/v1602302291/Amber-pizza-sign-_uclbg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:150vh;
+}
+
+.about {
+    text-align: center;
+    margin-top: 30px;
+}
