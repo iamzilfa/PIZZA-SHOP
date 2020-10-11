@@ -5,6 +5,10 @@ header {
     height:150vh;
 }
 
+.fa-pizza-slice {
+    color: rgb(197, 197, 9);
+}
+
 .bg-dark {
     background-color: rgba(0, 0, 0, 0.575) !important;
 }
@@ -15,7 +19,7 @@ header {
 }
 
 .navbar-nav .nav-item {
-    margin: 0 30px;
+    margin: 0 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
