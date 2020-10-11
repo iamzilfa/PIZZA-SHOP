@@ -20,7 +20,7 @@ header {
     background-color: rgba(0, 0, 0, 0.575) !important;
 }
 
-.about {
+#about {
     text-align: center;
     margin-top: 20px;
 }
@@ -35,7 +35,7 @@ font-size: 14px;
 text-transform: uppercase;
 }
 
-#Contact .icons ul li {
+#contact .icons ul li {
     display: inline;
     text-align: center;
     padding: 10px;
