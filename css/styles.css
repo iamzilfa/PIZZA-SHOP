@@ -25,6 +25,11 @@ header {
     margin-top: 20px;
 }
 
+#about span {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
 .navbar-nav .nav-item {
     margin: 0 20px;
 }
@@ -61,7 +66,11 @@ text-transform: uppercase;
     text-align: center;
   }
 
-  /****************Diane********************/
+  
+  
+
+
+  /************************************/
 /* 
   .fa{
     font-size: 3rem;
@@ -80,5 +89,4 @@ text-transform: uppercase;
   }
 } */
 
-/* uwase diane10:52 AM
-<i class="fa fa-arrow-down" aria-hidden="true"></i> */
+/* <i class="fa fa-arrow-down" aria-hidden="true"></i> */ */
