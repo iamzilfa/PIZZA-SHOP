@@ -11,7 +11,9 @@ header {
 }
 
 .navbar-brand {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Bilbo Swash Caps', cursive;
 }
 
 .bg-dark {
