@@ -6,7 +6,7 @@ header {
 }
 
 .bg-dark {
-    background-color: rgba(0, 0, 0, 0.623) !important;
+    background-color: rgba(0, 0, 0, 0.575) !important;
 }
 
 .about {
@@ -23,3 +23,36 @@ font-weight:700;
 font-size: 14px;
 text-transform: uppercase;
 }
+
+#Contact .icons ul li {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .icons {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .fas {
+    /* color: white; */
+  }
+  
+  .fas:hover {
+    /* color: #bf4080; */
+  }
+  
+  .fab {
+    /* color: white; */
+  }
+  
+  .fab:hover {
+    /* color: #bf4080; */
+  }
+  
+  .Copyright {
+    text-align: center;
+    /* color: white; */
+    /* border-top: #595959 solid 1px; */
+  }
