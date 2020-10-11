@@ -1,7 +1,8 @@
 header {
-    background-image: url(https://res.cloudinary.com/zilfa/image/upload/v1602302291/Amber-pizza-sign-_uclbg2.jpg);
+    background-image: url(https://res.cloudinary.com/zilfa/image/upload/v1602396078/3e1ed1768b1d_catzwu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height:150vh;
 }
 
@@ -59,4 +60,13 @@ text-transform: uppercase;
     text-align: center;
     /* color: white; */
     /* border-top: #595959 solid 1px; */
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .about {
+    text-align: center;
   }
