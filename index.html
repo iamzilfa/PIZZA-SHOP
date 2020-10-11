@@ -51,49 +51,86 @@
 
   <div class="container">
     <div class="about">
-        <h3 style="padding: 20px;">ABOUT US</h3>
-        <p>The goal of this week's Independent Project is to help us practice and understand better the concepts that we have covered throughout this week. These include working with constructors, prototypes, objects, properties, and methods in Javascript as well as using jQuery and DOM manipulation & traversal.</p>
-        <p>You own a pizza place and as a way of trying to widen your customer base, you decide to create a web application where your customers order different sizes of pizzas with one or more toppingsYou own a pizza place and as a way of trying to widen your customer base, you decide to create a web application where your customers order different sizes of pizzas with one or more toppings.</p>
-        <p>TBe sure to give your application a suitable catchy name.</p>
-    </div>
-</div>
-
-<div class="container">
-  <h3 style="text-align: center; padding: 20px;">Pizzas for Veggan Lovers</h3>
-<div class="card-deck">
-  <div class="card">
-    <img src="https://res.cloudinary.com/zilfa/image/upload/v1602397845/Mushroom-Broccoli-Pizza_EXPS_MIOPBZ17_14710_D10_13_4b-696x696_iunkqh.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Mushroom Broccoli Pizza</h5>
+      <h3 style="padding: 20px;">ABOUT US</h3>
+      <p>The goal of this week's Independent Project is to help us practice and understand better the concepts that we
+        have covered throughout this week. These include working with constructors, prototypes, objects, properties, and
+        methods in Javascript as well as using jQuery and DOM manipulation & traversal.</p>
+      <p>You own a pizza place and as a way of trying to widen your customer base, you decide to create a web
+        application where your customers order different sizes of pizzas with one or more toppingsYou own a pizza place
+        and as a way of trying to widen your customer base, you decide to create a web application where your customers
+        order different sizes of pizzas with one or more toppings.</p>
+      <p>TBe sure to give your application a suitable catchy name.</p>
     </div>
   </div>
-  <div class="card">
-    <img src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Herbed Tomato Crust Pizza</h5>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://res.cloudinary.com/zilfa/image/upload/v1602397801/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b-696x696_mavant.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Whole Wheat Veggie Pizza</h5>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Spinach and Artichoke Pizza</h5>
-    </div>
-    
-  </div>
-</div>
-</div>
 
-<div class="container">
-<h3 style="text-align: center; padding: 20px;">Order Online for Pickup or Delivery</h3>
+  <div class="container">
+    <h3 style="text-align: center; padding: 20px;">Pizzas for Veggan Lovers</h3>
+    <div class="card-deck">
+      <div class="card">
+        <img
+          src="https://res.cloudinary.com/zilfa/image/upload/v1602397845/Mushroom-Broccoli-Pizza_EXPS_MIOPBZ17_14710_D10_13_4b-696x696_iunkqh.jpg"
+          class="card-img-top" alt="...">
+      </div>
+      <div class="card">
+        <img
+          src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg"
+          class="card-img-top" alt="...">
+      </div>
+      <div class="card">
+        <img
+          src="https://res.cloudinary.com/zilfa/image/upload/v1602397801/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b-696x696_mavant.jpg"
+          class="card-img-top" alt="...">
+      </div>
+      <div class="card">
+        <img
+          src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg"
+          class="card-img-top" alt="...">
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="container">
+    <h3 style="text-align: center; padding: 20px;">Order Online for Pickup or Delivery</h3>
+    <form action="">
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Size</label>
+        <select class="form-control" id="theSize">
+          <option value="theSmall">Small</option>
+          <option value="theMedium">Medium</option>
+          <option value="theLarge">Large</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Crust</label>
+        <select class="form-control" id="theCrust">
+          <option value="theCrispy">Crispy</option>
+          <option value="theStuffed">Stuffed</option>
+          <option value="theGluten">Gluten-free</option>
+        </select> <br>
+        <input type="text" name="" id="quantity" placeholder="quantity">
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="onion">
+        <label class="form-check-label" for="inlineCheckbox1">Onion</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="brocollini">
+        <label class="form-check-label" for="inlineCheckbox2">Brocollini</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="garlic">
+        <label class="form-check-label" for="inlineCheckbox3">Garlic</label>
+      </div> <br>
+      <button type="submit"  class="btn btn-primary">Check</button>
+ 
+  </form>
+  <div id="display"></div>
+  <div id="result"></div>
 </div>
-
-
   <footer>
     <section id="Contact">
       <div class="final">
@@ -106,7 +143,7 @@
           </ul>
         </div>
         <div class=Copyright>
-          <p><small>&copy; 2020 Zilfa CYAMANI|All Rights Reserved</small></p>
+          <p><small>&copy; 2020 Oh La La Pizza|All Rights Reserved</small></p>
         </div>
       </div>
     </section>

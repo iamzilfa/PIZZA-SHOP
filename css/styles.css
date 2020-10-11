@@ -10,6 +10,10 @@ header {
     color: rgb(197, 197, 9);
 }
 
+.navbar-brand {
+  font-weight: bold;
+}
+
 .bg-dark {
     background-color: rgba(0, 0, 0, 0.575) !important;
 }
@@ -40,26 +44,10 @@ text-transform: uppercase;
     margin: 10px 0;
   }
   
-  .fas {
-    /* color: white; */
-  }
-  
-  .fas:hover {
-    /* color: #bf4080; */
-  }
-  
-  .fab {
-    /* color: white; */
-  }
-  
-  .fab:hover {
-    /* color: #bf4080; */
-  }
+
   
   .Copyright {
     text-align: center;
-    /* color: white; */
-    /* border-top: #595959 solid 1px; */
   }
 
   .card-title {
@@ -70,3 +58,25 @@ text-transform: uppercase;
   .about {
     text-align: center;
   }
+
+  /****************Diane********************/
+/* 
+  .fa{
+    font-size: 3rem;
+    margin-top: 100px;
+    animation: bounce 2.6s infinite;
+}
+@keyframes bounce {
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-55px);
+  }
+  60% {
+    transform: translateY(-60px);
+  }
+} */
+
+/* uwase diane10:52 AM
+<i class="fa fa-arrow-down" aria-hidden="true"></i> */
