@@ -84,8 +84,8 @@ $("form").submit(function(e){
 })
  
 function theFunc(){
-    var homeAddre = prompt("moringa school");
+    var homeAddre = prompt("Please Enter Your Adrress!");
     if(homeAddre){
-       alert("You will delivered at " + homeAddre); 
+       alert("Your order will be delivered at " + homeAddre); 
     }
 }

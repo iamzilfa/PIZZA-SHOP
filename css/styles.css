@@ -102,4 +102,10 @@ text-transform: uppercase;
   }
   h3 {
     font-family: 'Merienda', cursive;
+    margin: 20px;
+  }
+
+
+  #quantity {
+    width: 438px;
   }
