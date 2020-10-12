@@ -40,6 +40,10 @@ font-size: 14px;
 text-transform: uppercase;
 }
 
+.form-control {
+  width: 440px;
+}
+
 #contact .icons ul li {
     display: inline;
     text-align: center;
