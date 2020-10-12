@@ -1,13 +1,13 @@
 header {
-    background-image: url(https://res.cloudinary.com/zilfa/image/upload/v1602396078/3e1ed1768b1d_catzwu.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:150vh;
+  background-image: url(https://res.cloudinary.com/zilfa/image/upload/v1602396078/3e1ed1768b1d_catzwu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150vh;
 }
 
 .fa-pizza-slice {
-    color: rgb(197, 197, 9);
+  color: rgb(197, 197, 9);
 }
 
 .navbar-brand {
@@ -17,12 +17,12 @@ header {
 }
 
 .bg-dark {
-    background-color: rgba(0, 0, 0, 0.575) !important;
+  background-color: rgba(0, 0, 0, 0.575) !important;
 }
 
 #about {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #about p {
@@ -36,77 +36,76 @@ header {
   font-size: 25px;
   color: red;
 }
+
 .navbar-nav .nav-item {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-font-weight:700;
-font-size: 14px;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .form-control {
   width: 440px;
 }
-  
-  .Copyright {
-    text-align: center;
-  }
 
-  .card-title {
-    font-weight: bold;
-    font-size: 15px;
-  }
+.Copyright {
+  text-align: center;
+}
 
-  .about {
-    text-align: center;
-  }
+.card-title {
+  font-weight: bold;
+  font-size: 15px;
+}
 
-  
-  input[type=email], textarea {
-    width: 300px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid gray;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  input {
-    height: 25px;
-  }
-  
-  input[type=submit] {
-    width: 200px;
-    border-radius: 20px;
-    border: none;
-    background-color: red;
-    color: white;
-    height: 25px;
-    margin-top: 15px;
-    font-weight: bold;
-  }
+.about {
+  text-align: center;
+}
 
-  footer {
-    margin-top: 60px;
-    background-color: black;
-  }
+input[type=email], textarea {
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
 
+input {
+  height: 25px;
+}
 
-  #ico{
-    color: grey;
-  }
+input[type=submit] {
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: red;
+  color: white;
+  height: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+}
 
-  #loco {
-    color: grey;
-  }
-  h3 {
-    font-family: 'Merienda', cursive;
-    margin:20px;
-  }
+footer {
+  margin-top: 60px;
+  background-color: black;
+}
 
+#ico {
+  color: grey;
+}
 
-  #quantity {
-    width: 438px;
-  }
+#loco {
+  color: grey;
+}
+
+h3 {
+  font-family: 'Merienda', cursive;
+  margin: 20px;
+}
+
+#quantity {
+  width: 438px;
+}
