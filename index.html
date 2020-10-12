@@ -54,7 +54,8 @@
   <div class="container">
     <section id="about">
       <h3>ABOUT US</h3>
-      <p>At <span> Oh la la Pizza </span>, we put dietary diversity first because we believe that everyone deserves to eat great pizza.
+      <p>At <span> Oh la la Pizza </span>, we put dietary diversity first because we believe that everyone deserves to
+        eat great pizza.
         We’re proud to have such a wide variety of vegan options available, and we’re always expanding our menu to
         include more options for everyone. Not only do we have vegan choices, but our dietary alternatives extend to
         gluten free and vegetarian too.</p>
@@ -62,73 +63,102 @@
   </div>
 
   <div class="container">
-    <section id="pizza">
-      <h3 style="text-align: center; padding: 20px;">Pizzas for Vegan Lovers</h3>
-      <div class="card-deck">
-        <div class="card">
-          <img
+    <div class="row">
+      <div class="col">
+        <h3 style="text-align: center; padding: 20px;">Order Online for Pickup or Delivery</h3>
+        <form action="">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Size</label>
+            <select class="form-control" id="theSize">
+              <option value="theSmall">Small</option>
+              <option value="theMedium">Medium</option>
+              <option value="theLarge">Large</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Crust</label>
+            <select class="form-control" id="theCrust">
+              <option value="theCrispy">Crispy</option>
+              <option value="theStuffed">Stuffed</option>
+              <option value="theGluten">Gluten-free</option>
+            </select> <br>
+            <input type="text" name="" id="quantity" placeholder="quantity">
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="onion">
+            <label class="form-check-label" for="inlineCheckbox1">Onion</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="brocollini">
+            <label class="form-check-label" for="inlineCheckbox2">Brocollini</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="garlic">
+            <label class="form-check-label" for="inlineCheckbox3">Garlic</label>
+          </div> <br>
+          <button type="submit" class="btn btn-primary">Check</button>
+
+        </form>
+        <div id="display"></div>
+        <div id="result"></div>
+      </div>
+      <div class="col">
+        <h3 style="text-align: center; padding: 20px;">Pizzas for Vegan Lovers</h3>
+        
+        <div class="card-group">
+          <div class="card">
+            <img
             src="https://res.cloudinary.com/zilfa/image/upload/v1602397845/Mushroom-Broccoli-Pizza_EXPS_MIOPBZ17_14710_D10_13_4b-696x696_iunkqh.jpg"
             class="card-img-top" alt="...">
-        </div>
-        <div class="card">
-          <img
-            src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg"
-            class="card-img-top" alt="...">
-        </div>
-        <div class="card">
-          <img
+          </div>
+          <div class="card">
+            <img
+                    src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg"
+                    class="card-img-top" alt="...">
+          </div>
+          <div class="card">
+            <img
             src="https://res.cloudinary.com/zilfa/image/upload/v1602397801/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b-696x696_mavant.jpg"
             class="card-img-top" alt="...">
+          </div>
+      
+          <div class="card">
+            <img
+                    src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg"
+                    class="card-img-top" alt="...">
+          </div>
         </div>
-        <div class="card">
-          <img
-            src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg"
+
+        <div class="card-group">
+          <div class="card">
+            <img
+            src="https://res.cloudinary.com/zilfa/image/upload/v1602397845/Mushroom-Broccoli-Pizza_EXPS_MIOPBZ17_14710_D10_13_4b-696x696_iunkqh.jpg"
             class="card-img-top" alt="...">
+          </div>
+          <div class="card">
+            <img
+                    src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg"
+                    class="card-img-top" alt="...">
+          </div>
+          <div class="card">
+            <img
+            src="https://res.cloudinary.com/zilfa/image/upload/v1602397801/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b-696x696_mavant.jpg"
+            class="card-img-top" alt="...">
+          </div>
+      
+          <div class="card">
+            <img
+                    src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg"
+                    class="card-img-top" alt="...">
+          </div>
         </div>
-      </div>
-    </section>
-</div>
-
-  <div class="container">
-    <section id="services">
-    <h3 style="text-align: center; padding: 20px;">Order Online for Pickup or Delivery</h3>
-    <form action="">
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Size</label>
-        <select class="form-control" id="theSize">
-          <option value="theSmall">Small</option>
-          <option value="theMedium">Medium</option>
-          <option value="theLarge">Large</option>
-        </select>
+      
+      
+        
       </div>
 
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Crust</label>
-        <select class="form-control" id="theCrust">
-          <option value="theCrispy">Crispy</option>
-          <option value="theStuffed">Stuffed</option>
-          <option value="theGluten">Gluten-free</option>
-        </select> <br>
-        <input type="text" name="" id="quantity" placeholder="quantity">
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="onion">
-        <label class="form-check-label" for="inlineCheckbox1">Onion</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="brocollini">
-        <label class="form-check-label" for="inlineCheckbox2">Brocollini</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="garlic">
-        <label class="form-check-label" for="inlineCheckbox3">Garlic</label>
-      </div> <br>
-      <button type="submit" class="btn btn-primary">Check</button>
-
-    </form>
-    <div id="display"></div>
-    <div id="result"></div>
-    </section>
+    </div>
   </div>
 
   <footer>
@@ -148,6 +178,14 @@
       </div>
     </section>
   </footer>
+
+
+
+
+
+  
+
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
