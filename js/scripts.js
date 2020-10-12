@@ -38,11 +38,12 @@ for (var cash = 0; cash < this.topping.length; cash++) {
 }
 
 for (var cash = 0; cash < this.topping.length; cash++) {
-    if(this.topping[cash] == "broccolini "){
-        var priceTheBroccolini  = 100;
-        toppingPr.push(priceTheBroccolini );
+    if(this.topping[cash] == "brocollini"){
+        var priceTheBrocollini  = 100;
+        toppingPr.push(priceTheBrocollini);
     }
 }
+console.log(priceTheBrocollini + "bren")
 
 for (var cash = 0; cash < this.topping.length; cash++) {
     if(this.topping[cash] == "garlic"){
@@ -50,15 +51,15 @@ for (var cash = 0; cash < this.topping.length; cash++) {
         toppingPr.push(priceTheGarlic);
     }
 }
-console.log(toppingPr);
+console.log(toppingPr + "ren");
 
 var toppingPrice = 0;
 var i = 0;
-while(i < toppingPr.lenght){
+while(i < toppingPr.length){
     toppingPrice = toppingPrice + toppingPr[i]
     i++;
 }
-console.log(toppingPrice);
+console.log(toppingPrice + "thar");
 
 var theTotal = priceTheSize + priceTheCrust + toppingPrice;
 return theTotal;
@@ -69,7 +70,7 @@ $("form").submit(function(e){
  var sizeSelect = $("select#theSize").val();
  var crustSelect = $("select#theCrust").val();
  var toppingSelect = [];
- var quantitySelect = $("select#quantity").val();
+ var quantitySelect = $("input#quantity").val();
  toppingSelect = $("input:checkbox:checked").map(function(){
     return $(this).val();
  }).get();
@@ -78,6 +79,13 @@ $("form").submit(function(e){
  console.log(newCustomer.wholePizza());
  var dan = newCustomer.wholePizza()*quantitySelect;
  $('#result').text(dan);
- 
-})
+ console.log(quantitySelect + "dian");
 
+})
+ 
+function theFunc(){
+    var homeAddre = prompt("moringa school");
+    if(homeAddre){
+       alert("You will delivered at " + homeAddre); 
+    }
+}

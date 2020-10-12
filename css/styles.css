@@ -25,6 +25,11 @@ header {
     margin-top: 20px;
 }
 
+#about p {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+
 #about span {
   font-family: 'Bilbo Swash Caps', cursive;
   font-weight: bold;
