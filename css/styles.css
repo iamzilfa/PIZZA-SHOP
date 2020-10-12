@@ -77,25 +77,3 @@ text-transform: uppercase;
 
   
   
-
-
-  /************************************/
-/* 
-  .fa{
-    font-size: 3rem;
-    margin-top: 100px;
-    animation: bounce 2.6s infinite;
-}
-@keyframes bounce {
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-55px);
-  }
-  60% {
-    transform: translateY(-60px);
-  }
-} */
-
-/* <i class="fa fa-arrow-down" aria-hidden="true"></i> */ */

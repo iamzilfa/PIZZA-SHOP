@@ -39,7 +39,7 @@
               <a class="nav-link" href="#contact">contact</a>
             </li>
             <li class="nav-item">
-              <a type="submit" class="btn btn-light " style="background-color: red; border: none; border-radius: 20px;" href="#order">ORDER HERE!</a>
+              <a type="submit" class="btn btn-light " style="background-color: red; border: none" href="#order">Order Now</a>
             </li>
           </ul>
         </div>
@@ -65,8 +65,8 @@
         <h3 style="margin: 40px 0;">Order Online for Pickup or Delivery</h3>
         <form action="">
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Size</label>
             <select class="form-control" id="theSize">
+              <option value="theSmall">Size</option>
               <option value="theSmall">Small</option>
               <option value="theMedium">Medium</option>
               <option value="theLarge">Large</option>
@@ -74,14 +74,15 @@
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Crust</label>
             <select class="form-control" id="theCrust">
+              <option value="theCrispy">Crust</option>
               <option value="theCrispy">Crispy</option>
               <option value="theStuffed">Stuffed</option>
               <option value="theGluten">Gluten-free</option>
             </select> <br>
             <input type="text" name="" id="quantity" placeholder="quantity">
           </div>
+          <p>Toppings</p>
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="onion">
             <label class="form-check-label" for="inlineCheckbox1">Onion</label>
@@ -154,13 +155,25 @@
   </div>
 
   <footer>
-    <section id="contact">
-      <div class="final">
+
+    <div class="container">
+      <section id="contact">
+      <div class="row">
+        <div class="col-sm">
+         <p> Location</p>
+        </div>
+        <div class="col-sm">
+          <p>Customcare </p>
+        </div>
+        <div class="col-sm">
+         <p> Contact Us </p>
+        </div>
+      </div>
         <div class=Copyright>
           <p><small>&copy; 2020 | Oh La La Pizza</small></p>
         </div>
-      </div>
     </section>
+  </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
