@@ -33,7 +33,7 @@ If anyone need support concerning my project or anything related, just reach out
 [Here is the link](https://iamzilfa.github.io/PIZZA-SHOP/ "PIZZA-SHOP")
 
 
-
+![PIZZA-SHOP](./image/pizza-shp.png)
 ### License
 
 Copyright (c) [2020] [Zilfa Cyamani]
