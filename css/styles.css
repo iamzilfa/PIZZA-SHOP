@@ -77,3 +77,28 @@ text-transform: uppercase;
 
   
   
+  input[type=email], textarea {
+    width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  input {
+    height: 25px;
+  }
+  
+  input[type=submit] {
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: yellow;
+    color: white;
+    height: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  
