@@ -48,19 +48,6 @@ text-transform: uppercase;
 .form-control {
   width: 440px;
 }
-
-#contact .icons ul li {
-    display: inline;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .icons {
-    text-align: center;
-    margin: 10px 0;
-  }
-  
-
   
   .Copyright {
     text-align: center;
@@ -76,13 +63,12 @@ text-transform: uppercase;
   }
 
   
-  
   input[type=email], textarea {
     width: 300px;
     background: transparent;
     border: none;
     border-bottom: 1px solid gray;
-    color: black;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
   }
   
@@ -94,11 +80,26 @@ text-transform: uppercase;
     width: 200px;
     border-radius: 20px;
     border: none;
-    background-color: yellow;
+    background-color: red;
     color: white;
     height: 25px;
     margin-top: 15px;
     font-weight: bold;
   }
 
-  
+  footer {
+    margin-top: 60px;
+    background-color: black;
+  }
+
+
+  #ico{
+    color: grey;
+  }
+
+  #loco {
+    color: grey;
+  }
+  h3 {
+    font-family: 'Merienda', cursive;
+  }

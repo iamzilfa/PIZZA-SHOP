@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/83d474e45f.js" crossorigin="anonymous"></script>
   <title>PIZZARIA</title>
 </head>
@@ -39,7 +40,8 @@
               <a class="nav-link" href="#contact">contact</a>
             </li>
             <li class="nav-item">
-              <a type="submit" class="btn btn-light " style="background-color: red; border: none" href="#order">Order Now</a>
+              <a type="submit" class="btn btn-light " style="background-color: red; border: none" href="#order">Order
+                Now</a>
             </li>
           </ul>
         </div>
@@ -51,106 +53,107 @@
     <section id="about">
       <h3>ABOUT US</h3>
       <p>At <span> Oh la la Pizza </span>, we put dietary diversity first because we believe that everyone deserves to
-        eat great pizza. Our vegan crust is devoid of any animal products, and serves as the base of our pizza.</p> 
-        <p>We’re proud to have such a wide variety of vegan options available, and we’re always expanding our menu to
+        eat great pizza. Our vegan crust is devoid of any animal products, and serves as the base of our pizza.</p>
+      <p>We’re proud to have such a wide variety of vegan options available, and we’re always expanding our menu to
         include more options for everyone.</p>
-        <p>Not only do we have vegan choices, but our dietary alternatives extend to gluten free and vegetarian too.</p>
+      <p>Not only do we have vegan choices, but our dietary alternatives extend to gluten free and vegetarian too.</p>
     </section>
   </div>
 
   <div class="container">
     <section id="order">
-    <div class="row">
-      <div class="col">
-        <h3 style="margin: 40px 0;">Order Online for Pickup or Delivery</h3>
-        <form action="">
-          <div class="form-group">
-            <select class="form-control" id="theSize">
-              <option value="theSmall">Size</option>
-              <option value="theSmall">Small</option>
-              <option value="theMedium">Medium</option>
-              <option value="theLarge">Large</option>
-            </select>
+      <div class="row">
+        <div class="col">
+          <h3 style="margin: 40px 0;">Order Online for Pickup or Delivery</h3>
+          <form action="">
+            <div class="form-group">
+              <select class="form-control" id="theSize">
+                <option value="theSmall">Size</option>
+                <option value="theSmall">Small</option>
+                <option value="theMedium">Medium</option>
+                <option value="theLarge">Large</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <select class="form-control" id="theCrust">
+                <option value="theCrispy">Crust</option>
+                <option value="theCrispy">Crispy</option>
+                <option value="theStuffed">Stuffed</option>
+                <option value="theGluten">Gluten-free</option>
+              </select> <br>
+              <input type="text" name="" id="quantity" placeholder="quantity">
+            </div>
+            <p>Toppings</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="onion">
+              <label class="form-check-label" for="inlineCheckbox1">Onion</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="brocollini">
+              <label class="form-check-label" for="inlineCheckbox2">Brocollini</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="garlic">
+              <label class="form-check-label" for="inlineCheckbox3">Garlic</label>
+            </div> <br>
+            <button type="submit" class="btn btn-primary">Check</button>
+
+            <div class="form-check">
+              <input class="form-check-input" onclick="theFunc()" type="radio" name="exampleRadios" id="exampleRadios2"
+                value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Deliver
+              </label>
+            </div>
+
+          </form>
+          <div id="display"></div>
+          <div id="result"></div>
+        </div>
+        <div class="col">
+          <h3 style="margin: 40px 0;">Pizzas for Vegan Lovers</h3>
+
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/zilfa/image/upload/v1602397845/Mushroom-Broccoli-Pizza_EXPS_MIOPBZ17_14710_D10_13_4b-696x696_iunkqh.jpg"
+                class="card-img-top" alt="...">
+            </div>
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg"
+                class="card-img-top" alt="...">
+            </div>
+
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg"
+                class="card-img-top" alt="...">
+            </div>
           </div>
 
-          <div class="form-group">
-            <select class="form-control" id="theCrust">
-              <option value="theCrispy">Crust</option>
-              <option value="theCrispy">Crispy</option>
-              <option value="theStuffed">Stuffed</option>
-              <option value="theGluten">Gluten-free</option>
-            </select> <br>
-            <input type="text" name="" id="quantity" placeholder="quantity">
-          </div>
-          <p>Toppings</p>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="onion">
-            <label class="form-check-label" for="inlineCheckbox1">Onion</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="brocollini">
-            <label class="form-check-label" for="inlineCheckbox2">Brocollini</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="garlic">
-            <label class="form-check-label" for="inlineCheckbox3">Garlic</label>
-          </div> <br>
-          <button type="submit" class="btn btn-primary">Check</button>
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/zilfa/image/upload/v1602482263/exps88587_HCA153382B10_31_7b-696x696_lckmtu.jpg"
+                class="card-img-top" alt="...">
+            </div>
 
-          <div class="form-check">
-            <input class="form-check-input" onclick="theFunc()"  type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-            <label class="form-check-label" for="exampleRadios2">
-              Deliver 
-            </label>
-          </div>
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/zilfa/image/upload/v1602397801/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b-696x696_mavant.jpg"
+                class="card-img-top" alt="...">
+            </div>
 
-        </form>
-        <div id="display"></div>
-        <div id="result"></div>
-      </div>
-      <div class="col">
-        <h3 style="margin: 40px 0;">Pizzas for Vegan Lovers</h3>
-
-        <div class="card-group">
-          <div class="card">
-            <img
-              src="https://res.cloudinary.com/zilfa/image/upload/v1602397845/Mushroom-Broccoli-Pizza_EXPS_MIOPBZ17_14710_D10_13_4b-696x696_iunkqh.jpg"
-              class="card-img-top" alt="...">
-          </div>
-          <div class="card">
-            <img
-              src="https://res.cloudinary.com/zilfa/image/upload/v1602397898/Veggie-Pizza-with-Herbed-Tomato-Crust_EXPS_HRBZ17_36065_B09_06_1b-696x696_z8osm3.jpg"
-              class="card-img-top" alt="...">
-          </div>
-
-          <div class="card">
-            <img
-              src="https://res.cloudinary.com/zilfa/image/upload/v1602397758/exps175485_TH153341B11_24_1b-1-696x696_iup0x6.jpg"
-              class="card-img-top" alt="...">
+            <div class="card">
+              <img
+                src="https://res.cloudinary.com/zilfa/image/upload/v1602397717/exps744_TOHOH2257776D12_07_2bC_RMS-696x696_lxbuj3.jpg"
+                class="card-img-top" alt="...">
+            </div>
           </div>
         </div>
-
-        <div class="card-group">
-          <div class="card">
-            <img
-              src="https://res.cloudinary.com/zilfa/image/upload/v1602482263/exps88587_HCA153382B10_31_7b-696x696_lckmtu.jpg"
-              class="card-img-top" alt="...">
-          </div>
-
-          <div class="card">
-            <img
-              src="https://res.cloudinary.com/zilfa/image/upload/v1602397801/Whole-Wheat-Veggie-Pizza_EXPS_HCKA19_12558_C10_13_5b-696x696_mavant.jpg"
-              class="card-img-top" alt="...">
-          </div>
-
-          <div class="card">
-            <img
-              src="https://res.cloudinary.com/zilfa/image/upload/v1602397717/exps744_TOHOH2257776D12_07_2bC_RMS-696x696_lxbuj3.jpg"
-              class="card-img-top" alt="...">
-          </div>
-        </div>
       </div>
-    </div>
     </section>
   </div>
 
@@ -158,32 +161,41 @@
 
     <div class="container">
       <section id="contact">
-      <div class="row">
-        <div class="col-sm">
-         <p><strong>Location </strong></p>
-        </div>
-        <div class="col-sm">
-          <p> <strong> CustomCare </strong> </p>
-          <div class="Icons">
-            <p><a href="#"><i class="fas fa-phone-office fa-sm"></i></a> &nbsp; 250-253-478</p>
-            <p><a href="#"><i class="fas fa-phone fa-sm"></i></a>&nbsp; +250 785 235 568
-            <p><a href="#"><i class="fas fa-envelope fa-sm"></i></a>&nbsp;Oh_la_la_Pizza@gmail.com
+        <div class="row">
+          <div class="col-sm">
+            <h4 style="color: yellow; margin-top: 20px;"><strong>Location </strong></h4>
+            <div id="loco">
+            <p>Oh La La Pizza</p>
+            <p>Kigali Height</p>
+            <p>Kigali-Rwanda</p>
+            </div>
+          </div>
+          <div class="col-sm">
+            <h4 style="color: yellow; margin-top: 20px;"> <strong> CustomCare </strong> </h4>
+            <div id="ico">
+            <div class="Icons">
+              <p>250-253-478</p>
+              <p>+250 785 235 568</p>
+              <p>Oh_la_la_Pizza@gmail.com</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="cont">
+            <h4 style="color: yellow;margin-top: 20px;"> <strong> Contact Us </strong> </h4>
+            <form>
+              <input type="email" name="email" placeholder="Email"> <br>
+              <textarea name="message" placeholder="Message" rows="4"></textarea> <br>
+              <input type="submit" value="SEND">
+            </form>
+            </div>
           </div>
         </div>
-        <div class="col-sm">
-         <p> <strong> Contact Us </strong> </p>
-         <form>
-          <input type="email" name="email" placeholder="Email"> <br>
-          <textarea name="message" placeholder="Message" rows="4"></textarea> <br>
-          <input type="submit" value="SEND">
-        </form>
-        </div>
-      </div>
         <div class=Copyright>
-          <p><small>&copy; 2020 | Oh La La Pizza</small></p>
+          <p style="color: grey;"><small>&copy; 2020 | Oh La La Pizza</small></p>
         </div>
-    </section>
-  </div>
+      </section>
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
