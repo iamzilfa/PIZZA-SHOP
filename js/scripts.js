@@ -47,7 +47,6 @@ PizzaList.prototype.wholePizza = function () {
             toppingPr.push(priceTheBrocollini);
         }
     }
-    console.log(priceTheBrocollini + "bren")
 
     for (var cash = 0; cash < this.topping.length; cash++) {
         if (this.topping[cash] == "garlic") {
@@ -55,7 +54,6 @@ PizzaList.prototype.wholePizza = function () {
             toppingPr.push(priceTheGarlic);
         }
     }
-    console.log(toppingPr + "ren");
 
     var toppingPrice = 0;
     var i = 0;
@@ -85,7 +83,7 @@ $("form").submit(function (e) {
     console.log(newCustomer.wholePizza());
     var dan = newCustomer.wholePizza() * quantitySelect;
     $('#result').text("The Total Amount is " +dan).css({"color":"red", "fontStyle":"italic"});
-    console.log(quantitySelect + "dian");
+    $("form").trigger("reset");
 
 })
 
