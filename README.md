@@ -30,10 +30,9 @@ As a pizza owner place and as a way of trying to widen your customer base, you d
 ## Support and contact details
 If anyone need support concerning my project or anything related, just reach out to zilcyam@gmail.com
  
-<!-- [Here is the link](https://iamzilfa.github.io/DELANI-STUDIO/ "DELANI STUDIO") -->
+[Here is the link](https://iamzilfa.github.io/PIZZA-SHOP/ "PIZZA-SHOP")
 
 
-<!-- ![DELANI STUDIO](./img/delStud.png) -->
 
 ### License
 
