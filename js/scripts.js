@@ -1,8 +1,12 @@
+/*Business logic*/
+
 function PizzaList(size, crust, topping = []) {
     this.size = size;
     this.crust = crust;
     this.topping = topping;
 }
+
+
 
 PizzaList.prototype.wholePizza = function () {
 
@@ -65,6 +69,8 @@ PizzaList.prototype.wholePizza = function () {
     return theTotal;
 }
 
+/*User Interface Logic*/
+
 $("form").submit(function (e) {
     e.preventDefault();
     var sizeSelect = $("select#theSize").val();
@@ -75,13 +81,15 @@ $("form").submit(function (e) {
         return $(this).val();
     }).get();
     var newCustomer = new PizzaList(sizeSelect, crustSelect, toppingSelect);
-    $('#display').text(newCustomer.wholePizza());
+    $('#display').text("One Pizza costs" +newCustomer.wholePizza()).css({"color":"green"});
     console.log(newCustomer.wholePizza());
     var dan = newCustomer.wholePizza() * quantitySelect;
-    $('#result').text(dan);
+    $('#result').text("The Total Amount is " +dan).css({"color":"red", "fontStyle":"italic"});
     console.log(quantitySelect + "dian");
 
 })
+
+/*Business Logic*/
 
 function theFunc() {
     var homeAddre = prompt("Please Enter Your Adrress!");
