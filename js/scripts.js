@@ -79,10 +79,10 @@ $("form").submit(function (e) {
         return $(this).val();
     }).get();
     var newCustomer = new PizzaList(sizeSelect, crustSelect, toppingSelect);
-    $('#display').text("One Pizza costs" +newCustomer.wholePizza()).css({"color":"green"});
+    $('#display').text("One Pizza costs " + newCustomer.wholePizza()).css({ "color": "green" });
     console.log(newCustomer.wholePizza());
     var dan = newCustomer.wholePizza() * quantitySelect;
-    $('#result').text("The Total Amount is " +dan).css({"color":"red", "fontStyle":"italic"});
+    $('#result').text("The Total Amount is " + dan).css({ "color": "red", "fontStyle": "italic" });
     $("form").trigger("reset");
 
 })
