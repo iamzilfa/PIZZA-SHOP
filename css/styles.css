@@ -22,7 +22,7 @@ header {
 
 #about {
   text-align: center;
-  margin-top: 20px;
+  margin: 50px;
 }
 
 #about p {
@@ -52,7 +52,7 @@ header {
 }
 
 .Copyright {
-  text-align: center;
+  margin-left: 400px;
 }
 
 .card-title {
@@ -76,34 +76,40 @@ input[type=email], textarea {
 input {
   height: 25px;
 }
+ textarea {
+   height: 60px;
+ }
 
 input[type=submit] {
-  width: 200px;
+  width: 100px;
   border-radius: 20px;
   border: none;
   background-color: red;
-  color: white;
+  color: yellow;
   height: 25px;
   margin-top: 15px;
+  margin-left: 200px;
   font-weight: bold;
 }
 
 footer {
   margin-top: 60px;
   background-color: black;
+  border: 1px solid black;
 }
 
 #ico {
-  color: grey;
+  color: rgba(128, 128, 128, 0.808);
 }
 
 #loco {
-  color: grey;
+  color: rgba(128, 128, 128, 0.808);
+
 }
 
 h3 {
   font-family: 'Merienda', cursive;
-  margin: 20px;
+  margin-bottom: 30px;
 }
 
 #quantity {
